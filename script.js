@@ -11,7 +11,6 @@ sounds.forEach((sound) => {
     soundElement.addEventListener('ended', () => {
         btn.innerText = sound.charAt(0).toUpperCase() + sound.slice(1);
     });
-
     // Button click event
     btn.addEventListener('click', () => {
         if (soundElement.paused) {
