@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: rgb(161, 100, 223);
-  font-family: 'Poppins', sans-serif;
+  background-color: rgba(233, 130, 216, 0.605);
+  font-family: 'Times New Roman', serif;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -18,21 +18,21 @@ body {
 }
 
 .btn {
-  background-color: rebeccapurple;
+  background-color: rgb(67, 66, 67);
   border-radius: 5px;
   border: none;
-  color: #fff;
-  margin: 1rem;
-  padding: 1.5rem 3rem;
-  font-size: 1.2rem;
+  color: #f80b0b;
+  margin: 3rem;
+  padding: 2rem 3.5rem;
+  font-size: 1.8rem;
   font-family: inherit;
   cursor: pointer;
 }
 
 .btn:hover {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .btn:focus {
-  outline: none;
+  outline: 5px solid  crimson;
 }
